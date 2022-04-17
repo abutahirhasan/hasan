@@ -1,0 +1,84 @@
+"user strict";
+
+var one = $("#one");
+var two = $("#two");
+var three = $("#three");
+var four = $("#four");
+var five = $("#five");
+one.owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:1
+      },
+      1000:{
+          items:2
+      }
+  }
+})
+two.owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+  })
+  three.owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        320:{
+            items:2
+        },
+        575:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+  })
+  four.owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        320:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+  })
+  five.owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        320:{
+            items:1
+        },
+        575:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+  })
